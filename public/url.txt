@@ -1,0 +1,1 @@
+https://ws.sandbox.pagseguro.uol.com.br/v3/transactions/notifications/4173BB-25D4FDD4FDE7-FAA4AB5F884C-D8E6B1?email=xandecar@hotmail.com&token=FF579CC8863549A783664FDC85657678

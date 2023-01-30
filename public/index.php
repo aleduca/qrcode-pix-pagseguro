@@ -1,7 +1,7 @@
 <?php
 
 $endpoint = 'https://sandbox.api.pagseguro.com/orders';
-$token = 'coloque-seu-token-aqui';
+$token = 'FF579CC8863549A783664FDC85657678';
 
 $body =
   [
@@ -31,7 +31,7 @@ $body =
         "amount" => [
           "value" => 500
         ],
-        "expiration_date" => "2023-01-29T20:15:59-03:00",
+        "expiration_date" => "2023-04-29T20:15:59-03:00",
       ]
     ],
     "shipping" => [
@@ -47,7 +47,7 @@ $body =
       ]
     ],
     "notification_urls" => [
-      "https://meusite.com/notificacoes"
+      "https://alexandrecardoso-pagseguro.ultrahook.com"
     ]
   ];
 
