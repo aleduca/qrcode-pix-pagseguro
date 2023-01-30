@@ -12,7 +12,7 @@ if (isset($_POST['notificationCode'], $_POST['notificationType'])) {
   $payloadJson = json_encode($_POST);
 
   $notificationCode = $_POST['notificationCode'];
-  $token = 'FF579CC8863549A783664FDC85657678';
+  $token = 'seu-token-aqui';
   $credentials = "?email=xandecar@hotmail.com&token={$token}";
   // https://alexandrecardoso-pagseguro.ultrahook.com
   $url = "https://ws.sandbox.pagseguro.uol.com.br/v3/transactions/notifications/{$payload['notificationCode']}{$credentials}";
